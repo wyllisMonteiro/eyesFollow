@@ -1,0 +1,41 @@
+body {
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 100vh;
+}
+
+.content {
+  display: flex;
+  width: 500px;
+  height: 200px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.leftEye, .rightEye {
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+.white {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.red {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: red;
+  position: absolute;
+  top: 90px;
+  left: 90px;
+}
+
+/*# sourceMappingURL=style.css.map */
