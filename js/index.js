@@ -7,7 +7,7 @@ $( document ).ready(function() {
 
         $( ".rightEye .red" ).css( { 
             left: 45 + e.pageX / 20 + "px",
-            top: 45 + e.pageY / 20 + "git px"
+            top: 45 + e.pageY / 20 + "px"
         } );
     })
 })
